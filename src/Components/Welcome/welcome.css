@@ -1,0 +1,38 @@
+.welcome_cont{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+
+}
+.right_welcome{
+width:50%;
+}
+#image{
+    width: 100%;
+}
+.left_welcome{
+    width:50%;
+    background-color:rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: justify;  
+    padding: 30px;
+}
+.left_welcome>h1{
+    text-align: center;
+}
+.yearofes{
+    align-self: center;
+    /* background-color: red; */
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    line-height: 100px;
+}
+#year{
+    font-size: 7em
+}

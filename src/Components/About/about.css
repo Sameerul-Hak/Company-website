@@ -1,0 +1,475 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+.about_back{
+    height: 100vh;
+    /* background: red; */
+}
+.nav_co{
+    height: 20%;
+    /* background: green; */
+}
+.about_banner{
+    height: 40%;
+    width: 100%;
+    /* background: yellowgreen; */
+}
+.about_banner_img{
+    width: 100%;
+    height: 300px;
+}
+.about_desc{
+    width: 100%;
+    height: 60%;
+    /* background: red; */
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.about_para{
+    padding-top: 30px;
+    font-weight: 500;
+}
+.about_vision{
+    padding-top: 60px;
+    width: 100%;
+    height: 60%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.vision_cont{
+    width: 80%;
+    height: 90%;
+    background: white;
+    border-radius: 10px;
+    display: flex;
+}
+.vision_left_cont{
+    width: 50%;
+    height: 100%;
+    /* background: blue; */
+}
+.vision_right_cont{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.about_vision_img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.vision_head{
+    display: flex;
+    align-self: flex-start;
+    margin-left: 25px;
+}
+
+.mission_head{
+    margin-left: 10px;
+    /* padding-top: 10px; */
+    /* padding-bottom: 10px; */
+}
+.about_mission{
+    width: 100%;
+    height: 90%;
+    background: whitesmoke;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.mission_cont{
+    width: 100%;
+    height: 90%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    
+}
+.mission_left_cont{
+    width: 50%;
+    height: 90%;
+    /* background:yellow; */
+    /* padding: 10%; */
+}
+.mission_right_cont{
+    width: 30%;
+    height: 90%;
+    /* background:rebeccapurple; */
+}
+.mission_title_cont{
+    width: 100%;
+    height: 10%;
+    background:darkblue;
+    /* padding: 10px; */
+  
+    color: white;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    /* text-align: center; */
+}
+.mission_body_cont{
+    width: 100%;
+    height: 90%;
+    /* background: blue; */
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.mission_top_cont{
+    width: 100%;
+    height: 50%;
+    /* background: yellow; */
+    position: relative;
+    display: flex;
+}
+.mission_top_1{
+    width: 50%;
+    /* padding: 10%; */
+    height: 100%;
+    background:rgb(226, 223, 223);
+    display: flex;
+    gap: 10px;
+    
+}
+.mission_top_2{
+    width: 50%;
+    height: 100%;
+    background:rgb(226, 223, 223);
+    display: flex;
+    gap: 10px;
+}
+.mission_bottom_cont{
+    width: 100%;
+    height: 50%;
+    background: white;
+    position: relative;
+    display: flex;
+    /* gap: 10px; */
+}
+.mission_bottom_1{
+    width: 50%;
+    height: 100%;
+    /* background:red; */
+    background:rgb(226, 223, 223);
+
+    display: flex;
+    gap: 10px;
+}
+.mission_bottom_2{
+    width: 50%;
+    height: 100%;
+    background:rgb(226, 223, 223);
+    display: flex;
+    gap: 10px;
+    border-bottom-right-radius: 10px;
+}
+#borderimg{
+    border-bottom-left-radius: 10px;
+}
+.top_left_cont{
+    width: 30%;
+    height: 100%;
+    background:pink
+}
+.top_right_cont{
+    width: 70%;
+    height: 100%;
+    /* background: yellow; */
+}
+.bottom_left_cont{
+    width: 30%;
+    height: 100%;
+    background:pink;
+}
+.bottom_right_cont{
+    width: 70%;
+    height: 100%;
+}
+.mission_img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.about_major_areas{
+    height: 100vh;
+    /* background: rebeccapurple; */
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.major_title_cont{
+    height: 10%;
+    width: 80%;
+    /* background: green; */
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.major_body_cont{
+    
+    height: 70%;
+    background:rgb(221, 221, 222);
+    width: 80%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.major_card{
+    width: 30%;
+    height: 100%;
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+
+}
+.major_part1{
+    /* background: green; */
+    width: 100%;
+    height: 15%;
+}
+.major_part2{
+    /* background: red; */
+    width: 100%;
+    height: 20%;
+}
+.major_part3{
+    /* background: orange; */
+    width: 100%;
+    height: 65%;
+}
+.major_img{
+    height: 75px;
+}
+
+.about_chair{
+    width: 100%;
+    height: 75%;
+    background:whitesmoke;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.chair_cont{
+    width: 100%;
+    /* background: orangered; */
+    height: 70%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.chair_title_cont{
+    width: 85%;
+    height: 15%;
+    /* background: red; */
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.chair_card{
+    width: 85%;
+    height: 80%;
+    background:white;
+    border-radius:10px ;
+    position: relative;
+    display: flex;
+}
+.chair_card_left{
+    width: 20%;
+    height: 100%;
+    /* background: orange; */
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.chair_card_right{
+    width: 80%;
+    height: 100%;
+    /* background: yellow; */
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.chair_msg_cont{
+    padding-top: 30px;
+    padding-left: 10px;
+    font-size: 20px;
+}
+.chair_name{
+    /* padding-top: 30px; */
+    padding-left: 10px;
+    font-size: 25px;
+    font-weight: 500;
+}
+.chair_name:hover{
+    color: blue;
+}
+.chair_post{
+    /* padding-top: 5px; */
+    padding-left: 10px;
+    font-weight: 400;
+}
+.chair_social{
+    margin-top: 20px;
+    width: 100%;
+    height: 20%;
+    /* background: blue; */
+    position: relative;
+}
+.linkedin{
+    height: 20px;
+}
+.about_ex{
+    margin-top: 20px;
+    height: 60%;
+    width: 100%;
+    /* background: rebeccapurple; */
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.about_ex_card{
+    width: 85%;
+    height: 100%;
+    background:white;
+}
+.about_ex_title_cont{
+    /* padding-top: 20px; */
+    /* margin-top: 20px; */
+    width: 100%;
+    height: 25%;
+    /* background: green; */
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    text-transform: uppercase;
+    padding-left: 10px;
+    color: orangered;
+    /* font-weight: 200; */
+}
+hr{
+    width: 95%;
+    margin-left:10px ;
+}
+.ex_title{
+    width: 95%;
+    height: 20%;
+    /* background: green; */
+    margin-left: 10px;
+    padding-top: 10px;
+    color: orangered;
+    font-weight: 200;
+}
+.ex_body_cont{
+    width: 95%;
+    height: 50%;
+    /* background: red; */
+    margin-left: 10px;
+    padding-top: 10px;
+    font-size: 17px;
+}
+.view_link{
+    text-decoration: none;
+    margin-top: 15px;
+    color: orangered;
+}
+.about_history{
+    width: 100%;
+    height: 95%;
+    background: rgb(255, 255, 255);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* align-self: center; */
+}
+.history_body_cont{
+    width: 85%;
+    color: black;
+    height: 80%;
+    /* background: red; */
+
+
+}
+.history_title_cont{
+    width: 100%;
+    height: 10%;
+    /* background: green; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+}
+.history_img_cont{
+    margin-top: 20px;
+    width: 100%;
+    height: 80%;
+    background: yellow;
+}
+
+.history_img{
+    width: 100%;
+    height: 100%;
+}
+
+.about_community{
+    margin-top: 100px;
+    width: 100%;
+    height: 50%;
+    background: rgb(235, 232, 232);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.community_cont{
+    width: 85%;
+    height: 80%;
+    background: white;
+    border-radius: 10px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 3.5rem;
+}
+.com_btn{
+    padding: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.about_footer{
+    margin-top: 20px;
+    width: 100%;
+    height: 90%;
+    background: whitesmoke;
+}
