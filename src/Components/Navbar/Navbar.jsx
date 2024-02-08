@@ -1,41 +1,23 @@
 import React from 'react'
 import "./navbar.css";
-import logo from "../../Images/logo.png"
-import pintrest from "../../Images/pintrest.png"
-import instagram from "../../Images/instagram.png"
-import linkedin from "../../Images/linkedin.png"
-import facebook from "../../Images/facebook.png"
-import twitter from "../../Images/twitter.png"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faFacebookSquare, faTwitter, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import Navgations from './Navgations';
+import { Link } from 'react-router-dom';
 function Navbar() {
   return (
     <div className='navbar_container'>
       <div className='main_nav'>
-        <img src={logo} className='logo'/>
         <div className='icons'>
-            <div className='icons_parent'>
-                <img src={facebook} className='seperate_icons'/>
-                <h4>Facebook</h4>
-            </div>
-            <div className='icons_parent'>
-                <img src={linkedin} className='seperate_icons'/>
-                <h4>LinkedIn</h4>
-            </div>
-            <div className='icons_parent'>
-                <img src={instagram} className='seperate_icons'/>
-                <h4>Instagram</h4>
-            </div>
-            <div className='icons_parent'>
-                <img src={twitter} className='seperate_icons'/>
-                <h4>Twitter</h4>
-            </div>
-            <div className='icons_parent'>
-                <img src={pintrest} className='seperate_icons'/>
-                <h4>Pintrest</h4>
-            </div>
+            <Link><h4 className='top_nav_link'>CONTACT US</h4></Link>
+            <Link><h4 className='top_nav_link'>LOGIN</h4></Link>
+          
+            <FontAwesomeIcon icon={faFacebookSquare} size="1x" />
+            <FontAwesomeIcon icon={faTwitter} size="1x" />
+            <FontAwesomeIcon icon={faLinkedin} size="1x" />
         </div>
       </div>
-      <div>
+      <div className='nav_2'> 
       <Navgations/>
 
       </div>

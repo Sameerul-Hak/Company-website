@@ -1,53 +1,75 @@
-.slider_container
-{
-width: 100%;
-height: 100%;
-background-color: transparent; /* Change this to an appropriate color or 'transparent' */
-  box-shadow: inset 0px 0px 20px rgba(0, 0, 0, 0.5); /* Adjust values as needed */
-position: relative;
-/* top: 100px; */
-}
-.cont_slider{
+.container-slider {
     position: relative;
     width: 100%;
-    background-color: transparent; /* Change this to an appropriate color or 'transparent' */
-    box-shadow: inset 0px 0px 20px rgba(0, 0, 0, 0.5); /* Adjust values as needed */ 
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    position:relative;
-}
-.title{
-    width:100%;
-    z-index: 999;
-    font-size: 300%;
-    color: white;
-    text-transform: capitalize;
-}
-.image{
-    width: 100%;;
-    height: 100%;
-}
-.content{
-    width: 100%;
-    /* height: 10%; */
-    color: white;
-    font-size:110%;
-
-}
-.button{
-    padding: 3%;
-    border-radius: 10px;
-    border: none;
-    /* background-color:green; */
-}
-.grouped_home{
-    width: 40%;
     height: 90%;
-position: absolute;
-left: 3%;
-top: 2%;
-/* background-color: red; */
-}
+    overflow: hidden;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .slide {
+    display: none;
+    transition: opacity 0.5s ease-in-out;
+    border-radius: 15px;
+  }
+  
+  .active-anim {
+    display: block;
+  }
+  
+  .container-dots {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 10px;
+  }
+  
+  .dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .active {
+    background-color: #E72A2F;
+  }
+  
+  .btn-slide {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #fff;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    border-radius: 50%;
+    padding: 10px;
+    color: #fff;
+    font-size: 18px;
+    transition: background-color 0.3s ease-in-out;
+  }
+  .next {
+    right: 10px;
+  }
+  
+  .prev {
+    left: 10px;
+  }
+  
+  .img_slide{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  .arrow_img{
+    width: 20px;
+    height: 20px;
+    background: #fff;
+  }
+ 
+  

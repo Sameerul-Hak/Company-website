@@ -1,68 +1,91 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+
+}
 .navbar_container{
     width: 100%;
-    background-color:rgb(217, 169, 169);
-    height: 12vh;
-    border-radius: 10px;
+    /* background-color:rgb(217, 169, 169); */
+    height: 100%;
+   
 }
 .main_nav{
     width: 100%;
-    height: 100%;
-    background-color:rgb(255, 255, 255);
-    /* background-color:rgb(19, 200, 216); */
-    /* padding: 10px   ; */
+    height: 25%;
+    background:#E72A2F;  
     display: flex;
-justify-content: space-around;
-margin-top: 2%;
-align-items: center;
-border-radius: 10px;
+    justify-content: flex-end;
+    align-items: center;
+    
+}
+.nav_2{
+    height: 65%;
+    width: 100%;
 }
 .logo{
-    height:70%;
-    width: 20%;
-
+    height:100%;
+    width: 50%;
 }
+
 .icons{
     display: flex;
-    /* background-color: rgb(110, 110, 110); */
     width: 60%;
     height: 100%;
     align-items: center;
+    /* background: green; */
     justify-content: center;
+    gap: 1rem;
+    color: #ffffff;
 }
-.icons_parent{
-    display: flex;
-    /* background-color: #fff; */
-    margin: 10px;
-    align-items: center;
-    gap: 10px;
-}
-.seperate_icons{
-    width: 30px;
-    height: 30px;
-
+.top_nav_link{
+    color: #ffffff;
+    /* background: yellow; */
+    height: 25px;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-weight: 600;
 }
 .navigations_cont{
     width: 100%;
-    /* height: max-content; */
-    height: 5vh;
-    background-color: red;
-}
-.navigations_parent{
-    width: 100%;
     height: 100%;
+    position: relative;
     display: flex;
-    background-color:rgb(5,56,107);
+    background: #ffffff;
+}
+.nav_left{
+    height: 100%;
+    width:40%;
+    /* background: yellow; */
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav_right{
+    height: 100%;
+    width: 60%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+.nav_items{
+    height: 80%;
+    width:60%;
+    /* background: red; */
+    position: relative;
+    display: flex;
     align-items: center;
     justify-content: space-around;
 }
-.navigations_parent>h3  {
-    color: white;
-    font-weight: 400;
-    text-decoration: none;
+.nav_links{
+    color: #000;
+    font-size: 15px;
+}
 
-}
-#link{
-    color: white;
-    text-decoration: none;
-    font-weight: 400;
-}
+

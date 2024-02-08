@@ -1,0 +1,235 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.home_bg {
+  height: 100vh;
+  width: 100%;
+  background: #000;
+}
+
+.home_nav_cont {
+  height: 20%;
+  width: 100%;
+  
+
+}
+
+.home_welcome_cont {
+  background-color: #000;
+  height: 80%;
+  width: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.home_main_cont {
+  width: 90%;
+  height: 90%;
+  position: relative;
+  display: flex;
+}
+
+.home_left {
+  width: 55%;
+  height: 100%;
+  text-align: center;
+  color: #ffffff;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.home_right {
+  width: 45%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.home_right_main {
+  width: 90%;
+  height: 95%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.welcome_para {
+  margin: 35px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.search-bar {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.search-input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 10px;
+  outline: none;
+}
+
+.search-icon {
+  width: 40px;
+  height: 40px;
+  background: #2EA35E;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  right: 0;
+  font-size: 20px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  cursor: pointer;
+}
+
+@keyframes animatePlaceholder {
+  0%, 100% {
+      opacity: 0;
+      transform: translateY(-20px);
+  }
+  50% {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+
+.search-input::placeholder {
+  animation: animatePlaceholder 3s infinite;
+}
+
+.home_right_para_cont {
+  margin-top: 10px;
+  width: 100%;
+  height: 90%;
+  background: white;
+  overflow-y: auto; /* Enable vertical scrolling */
+}
+
+.home_right_top {
+  width: 100%;
+  height: 20%;
+  position: sticky; /* Make it sticky */
+  top: 0; /* Stick it to the top */
+  background: white; /* Add a background color if needed */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.home_right_down {
+  width: 100%;
+  height: 80%;
+}
+
+.home_filter {
+  width: 200px;
+  height: 50px;
+  border: 1px solid #EE254C;
+  border-radius: 10px;
+  color: #EE254C;
+  background: #ffffff;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-family: "poppins", sans-serif;
+  font-weight: 600;
+  margin-left: 10px;
+}
+
+.home_filter:active {
+  background: #EE254C;
+  color: #ffffff;
+}
+.home_right_content {
+  width: 100%;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+.content_head {
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+}
+.home_about_cont{
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #000;
+}
+.home_about_main{
+  width: 90%;
+  height: 90%;
+  position: relative;
+  display: flex;
+  /* background: rebeccapurple; */
+}
+.home_about_left{
+  width: 50%;
+  height: 100%;
+  /* background: red; */
+  padding: 30px;
+}
+.home_about_right{
+  width: 50%;
+  height: 100%;
+  /* background: blue; */
+}
+.home_about_head{
+  color: #ffffff;
+  font-family: "Poppins",sans-serif;
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+.home_about_p{
+  color: #ffffff;
+  font-family: "Poppins",sans-serif;
+  line-height: 1.5;
+  font-size: 30px;
+}
+
+.about_link{
+  margin-top: 20px;
+  font-size: 30px;
+}
+.home_about_img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.home_members_cont{
+  width: 100%;
+  height: 40%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  background: #000;
+}
+.home_members_main{
+  width: 80%;
+  height: 80%;
+  /* background: red; */
+}
