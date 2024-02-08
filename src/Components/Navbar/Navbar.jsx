@@ -10,7 +10,7 @@ function Navbar() {
       <div className='main_nav'>
         <div className='icons'>
             <Link><h4 className='top_nav_link'>CONTACT US</h4></Link>
-            <Link><h4 className='top_nav_link'>LOGIN</h4></Link>
+            <Link><h4 className='top_nav_link'>EVENTS</h4></Link>
           
             <FontAwesomeIcon icon={faFacebookSquare} size="1x" />
             <FontAwesomeIcon icon={faTwitter} size="1x" />
